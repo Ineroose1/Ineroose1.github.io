@@ -1,0 +1,739 @@
+/* algemeen */
+.container-fluid{
+    width:1440px; 
+    max-width: 100%;
+}
+.bigbox{
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+/* alles voor de navbar*/
+.navbar {
+    background-color: white; 
+    font-family: "telegrafico";
+    font-size: 13pt; 
+    height: 90px; 
+    margin-left: 10%;
+    margin-bottom: -15px; 
+}
+
+.navbar-nav{
+    float: right; 
+    padding-right: 125px; 
+    background-color:white; 
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+   padding-top: 15px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+   font-size: 12pt; 
+    }
+}
+
+.navbar-toggler{
+    border: none; 
+    margin-right: 23px; 
+    margin-top: 10px; 
+}
+
+.navbar-brand{
+    padding-top: 20px; 
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+   padding-top:6px; 
+
+    }
+}
+.nav-item{
+    padding-left: 30px; 
+}
+
+#cocktail{
+    min-height: 670px;
+}
+
+ 
+.row2{
+    margin-top: 30px; 
+    margin-left: -15px; 
+    margin-right: -20px; 
+}
+
+
+.img-fluid{
+    min-height: 670px;
+    width: 100%;
+    object-fit: cover; // here
+    -o-object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    #cocktail {
+   min-height: 620px; 
+    }
+    .img-fluid{
+    min-height: 620px;
+    }
+}
+
+
+.carousel-caption{
+    background-color: white; 
+    color: black;
+    max-height: 70px; 
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+    background-color: white; 
+    color: black;
+    max-height: 120px; 
+    padding-left: 10%;
+    padding-right:10%;
+    }
+}
+
+.carouseltext{
+    font-family:"telegrafico";
+    font-size:11pt; 
+}
+
+
+
+.image1{
+    background-image: url("../images/cocktail_4.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:700px; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .image1 {
+   min-height:300px; 
+    }
+}
+
+  .image2{
+    background-image: url("../images/cocktail_6.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:700px; 
+  }
+
+   @media screen and (max-width: 768px) {
+    .image2 {
+   min-height:300px; 
+    }
+}
+
+
+  .textblock1{
+    box-sizing:border-box;
+    padding-top:120px; 
+    padding-left: 15%;
+    padding-right: 15%;
+    min-height:450px;
+    background-color: #FFFFE1;
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+  }
+
+   @media screen and (max-width: 768px) {
+    .textblock1 {
+   min-height:300px; 
+   padding-top:40px; 
+    }
+}
+
+  .textblock1:hover {
+    background-color: rgba(238, 238, 238, 0.171)
+}
+
+  .textblock2{
+    box-sizing:border-box;
+    padding-top:140px; 
+    padding-left: 15%;
+    padding-right: 15%;
+    min-height:450px;
+    background-color: #FCE8E6;
+    margin-bottom: 30px; 
+  }
+ @media screen and (max-width: 768px) {
+    .textblock2 {
+   min-height:300px; 
+    }
+}
+
+   @media screen and (max-width: 768px) {
+    .textblock2 {
+   min-height:300px; 
+   padding-top:50px; 
+    }
+}
+  .textblock2:hover {
+    background-color: rgba(238, 238, 238, 0.171)
+}
+
+  .textblock3{
+    box-sizing:border-box;
+    padding-top:70px; 
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px; 
+  }
+
+  .textblock4{
+    box-sizing:border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 90px; 
+    min-height:250px;
+    margin-bottom: 30px; 
+    background-color:#FCE8E6;
+  }
+
+  .textblock5{
+    box-sizing:border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 90px; 
+    min-height:250px;
+    margin-bottom: 30px; 
+    background-color:#FFFFE1;
+  }
+
+
+
+h1{
+    font-family: "telegrafico";
+    font-size: 13pt;
+    text-align: center; 
+}
+
+ @media screen and (max-width: 768px) {
+   h1{
+       font-size:11pt; 
+   }
+}
+
+p{
+    font-family: "HelveticaNeue-Thin";
+    font-variant: thin; 
+    font-size: 9pt;
+    text-align: center; 
+    line-height: 2;
+    letter-spacing: 1px; 
+}
+
+   @media screen and (max-width: 768px) {
+    p{
+        font-size: 8pt; 
+        line-height: 14pt; ; 
+    }
+}
+
+.grey{
+    min-height: 350px;
+    background-color: rgba(238, 238, 238, 0.171);
+}
+
+#newsletter{
+    padding-left: 100px; 
+}
+
+.newsletterbox{
+    font-family: "HelveticaNeue-Thin";
+    font-variant: thin;
+    font-size: 10pt; 
+    color: black ; 
+    height: 25px;  
+    width: 200px;
+    text-align: center; 
+}
+
+.btn{
+display: inline-block;
+  font-family: "HelveticaNeue-medium";
+  font-variant: medium;
+  height: 30px; 
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border-top: none;
+  border-left:none; 
+  border-right:none; 
+  border-bottom: 2px solid black;
+  font-size: 1rem;
+  border-radius: 0; 
+  background-color:rgba(255, 255, 255, 0);
+  margin-left: 20px; 
+  color: black; 
+  font-size: 10pt; 
+  width: 100px; 
+  padding-bottom:0px;
+  padding-top: 5px; 
+  margin-bottom: 10px; 
+}
+
+  @media screen and (max-width: 768px) {
+    #newsletter{
+        padding-left: 20px; 
+    }
+    .btn{
+        margin-left: 50px; 
+        margin-top: 10px; 
+    }
+}
+.button2{
+    padding-left: 130px;
+    padding-top: 10px;  
+}
+
+  @media screen and (max-width: 768px) {
+   .button2{
+       padding-left: 20px; 
+   }
+}
+.btn:focus, .btn:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: grey; 
+  border-bottom: 2px solid grey;
+}
+
+#footertext1{
+    float:left; 
+}
+
+#footertext2{
+    float:right; 
+    text-align: right; 
+}
+
+
+
+.footer1{
+    border-top: 2px solid black; 
+    padding-top: 30px;
+    height: 60px;  
+}
+/*einde css page 1*/
+
+#cocktail2{
+    max-height:350px;
+}
+
+.carousel2{
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover; // here
+    -o-object-fit: cover;
+}
+
+#whatcocktails{
+    font-family:"telegrafico"; 
+    font-size:14pt; 
+    min-height: 100px;
+    padding-top: 35px; 
+}
+
+.sweetsour{
+    margin-top: 70px; 
+}
+
+.box1{
+    max-height: 100px; 
+    background-color: red; 
+}
+
+
+  .textblock1p2{
+ box-sizing:border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 90px; 
+    min-height:250px;
+    margin-bottom: 30px; 
+    background-color:#FCE8E6;
+    margin-top: 30px; 
+  }
+
+.image1p2{
+    margin-top: -30px; 
+    min-height:300px;
+    background-image: url("../images/cocktail_7.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+     min-height:250px;
+}
+
+.image2p2{
+    margin-top: -30px; 
+    min-height:300px;
+    background-image: url("../images/cocktail_9.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+     min-height:250px;
+}
+
+.image3p2{
+    margin-top: -30px; 
+    min-height:300px;
+    background-image: url("../images/cocktail_5.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+     min-height:250px;
+}
+
+.bodoni{
+font-family: "bodoni72"; 
+font-weight: bold; 
+font-size: 20px; 
+margin-top: -20px; 
+}
+
+.textblockcenter1{
+    max-height: 60px; 
+    margin-top: 100px; 
+    margin-bottom: 30px; 
+}
+
+#textblockcenter2{
+    margin-bottom: -42px; 
+}
+.bodoni2{
+font-family: "bodoni72"; 
+display: inline-block; 
+font-weight: bold; 
+font-size: 20px; 
+margin-top: -20px; 
+margin-left: 10px; 
+margin-right: 10px; 
+}
+
+h2{
+    font-family: "telegrafico";
+    font-size: 13pt;
+    text-align: center; 
+    margin-bottom: -10px; 
+}
+
+ @media screen and (max-width: 768px) {
+   h2{
+       font-size:11pt; 
+   }
+}
+
+.arrow{
+    margin-top: -55px; 
+    margin-left: 40px; 
+    height:12px;
+}
+
+.arrow:hover{
+    height:13px; 
+}
+#textblockcenter3{
+    margin-top: 40px;  
+     margin-bottom: -42px; 
+}
+
+  .textblock2p2{
+ box-sizing:border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 90px; 
+    min-height:250px;
+    margin-bottom: 30px; 
+    background-color:#FFFFE1;
+    margin-top: 30px; 
+  }
+
+  .image4p2{
+    margin-top: -30px; 
+    min-height:300px;
+    background-image: url("../images/cocktail_10.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+     min-height:250px;
+}
+
+.image5p2{
+    margin-top: -30px; 
+    min-height:300px;
+    background-image: url("../images/cocktail_11.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+     min-height:250px;
+}
+
+.image6p2{
+    margin-top: -30px; 
+    min-height:300px;
+    background-image: url("../images/cocktail_2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+     min-height:250px;
+}
+
+.cocktailleft{
+    font-family: "telegrafico";
+    font-size: 13pt;
+    text-align: left; 
+    margin-top: -50px; 
+}
+
+.cocktailright{
+    margin-top: 70px; 
+    text-align: right; 
+    font-size: 12px; 
+    color:grey; 
+    line-height: 18px; 
+}
+
+#link2{
+    margin-top:-20px; 
+    min-height:80px; 
+
+}
+
+/*!  pagina 3 !*/
+
+.bodoni3{
+font-family: "bodoni72"; 
+display: inline-block; 
+font-weight: bold; 
+font-size: 19px; 
+margin-left: 5px; 
+margin-right: 5px; 
+margin-bottom: -5px; 
+}
+
+.maps{
+    min-height: 250px; 
+    margin-top: -40px; 
+    width:100%;
+}
+
+.smallmaps{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+  .textblock1p3{
+ box-sizing:border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 90px; 
+    min-height:200px;
+    margin-bottom: 30px; 
+    background-color:#FCE8E6;
+    margin-top: 30px; 
+  }
+
+
+  .textblock2p3{
+ box-sizing:border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 90px; 
+    min-height:200px;
+    margin-bottom: 30px; 
+    background-color:#FFFFE1;
+    margin-top: 30px; 
+  }
+
+
+.formelement{
+    font-family: "telegrafico";
+    font-size: 12pt;
+    text-align: left; 
+    min-width: 250px; 
+}
+
+
+.smallquestion{
+    margin-top: 80px; 
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+
+
+.bodoni4{
+font-family: "bodoni72"; 
+text-align: center; 
+font-weight: bold; 
+font-size: 18px; 
+padding-top: 120px; 
+
+}
+
+.question{
+    width: 100%; 
+    background-color: rgba(238, 238, 238, 0.8);
+    height: 300px; 
+}
+
+.formbox{
+    font-family: "HelveticaNeue-Thin";
+    font-variant: thin;
+    font-size: 10pt; 
+    color: black ;
+    height: 25px;  
+    width: 480px;
+    text-align: left; 
+    padding-left: 20px; 
+    border-top: none;
+    border-left: none; 
+    border-right: none; 
+    border-bottom: 1.4px solid #C4C4C4; 
+    margin-left: 40px; 
+}
+
+.rowform{
+    min-height: 60px; 
+}
+
+.formbox2{
+    font-family: "HelveticaNeue-Thin";
+    font-variant: thin;
+    font-size: 10pt; 
+    color: white; 
+    height: 200px;  
+    width: 480px;
+    text-align: left; 
+    padding-top: -100px; 
+    padding-left: 20px; 
+    border: 1.4px solid #C4C4C4; 
+      margin-left: 40px; 
+}
+
+
+
+.formbox3{
+    font-family: "HelveticaNeue-Thin";
+    font-variant: thin;
+    font-size: 10pt; 
+    color: black ;
+    height: 25px;  
+    width: 180px;
+    text-align: left; 
+    padding-left: 20px; 
+    border-top: none;
+    border-left: none; 
+    border-right: none; 
+    border-bottom: 1.4px solid #C4C4C4; 
+    margin-left: 10px;
+
+}
+
+
+.inbetween{
+    min-width: 100px; 
+}
+
+.bodoni5{
+font-family: "bodoni72"; 
+text-align: center; 
+font-weight: bold; 
+margin-left: 750px; 
+font-size: 18px; 
+}
+
+.arrow2{
+    height:14px;
+    margin-left:890px; 
+    margin-top: -55px; 
+}
+
+.arrow2:hover{
+    height:16px; 
+}
+
+@media screen and (max-width: 768px) {
+   .bodoni{
+       margin-top: 0px; 
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .arrow{
+       margin-top: -22px; 
+   }
+}
+
+.sweetsour{
+    margin-top: 5px; 
+    width:50%; 
+}
+
+.firstline{
+    line-height: 30px; 
+}
+
+
+@media screen and (max-width: 768px) {
+   .smallmaps{
+       margin-left: -10px; 
+       margin-right: -10px;
+   }
+}
+
+.mapsright{
+    margin-top: 70px; 
+    padding-bottom: 50px; 
+    text-align: right; 
+    font-size: 12px; 
+    color:black; 
+    line-height: 18px; 
+}
+
+@media screen and (max-width: 768px) {
+   .formbox{
+       max-width: 235px; 
+       margin-left:0px; 
+   }
+
+   .formelement{
+       margin-top: 20px; 
+       margin-left: 10px; 
+   }
+    .formbox2{
+        max-width: 235px; 
+       margin-top: 10px; 
+       margin-left: 0px; 
+   }
+
+   .question{
+       max-height: 150px; 
+   }
+
+   .bodoni4{
+       padding-top: 70px;
+   }
+
+   .bodoni5{
+       margin-left: 2px; 
+   }
+
+   .arrow2{
+       padding-top: 5px; 
+       margin-left: 140px; 
+   }
+
+   .formbox3{
+       min-width: 220px; 
+   }
+   
+}
+
+
+

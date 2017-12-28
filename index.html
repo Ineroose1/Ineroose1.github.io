@@ -1,11 +1,178 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hello World</title>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navbar start hier -->
+    </nav>
+    <nav id="navbar" class="fixed-top navbar navbar-default navbar-toggleable-md navbar-light bg-faded navbar-fixed-top ">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <img src="./images/logo.png" height="60px" class="logo">
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mr-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="cocktails.html">COCKTAILS </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calendar.html">CALENDAR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recipe.html">RECIPE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Einde navbar -->
+
+    <!-- begin gridstructuur-->
+    <div class="container-fluid">
+        <div class="bigbox">
+            <!-- wat binnen de box zit -->
+            <!-- de eerste rij-->
+            <div class="row ">
+                <div id="cocktail" class="col-lg-12 col-sm-12">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/cocktail_1.jpg" alt="Los Angeles" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <p class="carouseltext">Mixing up some fun, drinks and happiness.</p>
+                                  </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/cocktail_2.jpg" alt="Chicago" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <p class="carouseltext">you can find us at several events..</p>
+                                  </div>
+                            </div>
+                               <div class="carousel-item">
+                                <img src="./images/cocktail_3.jpg" alt="Chicago" class="img-fluid">
+                                <div class="carousel-caption">
+                                    <p class="carouseltext">or invite us at your own party! </p>
+                                  </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- einde eerste rij -->
+
+            <!-- de tweede rij-->
+            <div class="row row2">
+                <div class="col-md-6">
+                    <div class="image1"></div>
+                  
+                    <div class="textblock1">
+                        <h1> HOW THINGS STARTED</h1><br>
+                        <p>When my mom was throwing herself a birthday party, she asked me to take care of the drinks that night. Since I take every job very seriously, I decided to build a little cocktail stand. 
+                            Since I had so much fun, and people got extremely enthousiastic over my cocktails, I decided to commercialize the concept. And so, this is what happened!  </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="textblock2">
+                        <h1> THIS IS WHAT WE DO</h1><br>
+                        <p>Wondering what “Mix” can mean to you? Here’s the deal: this brand new cocktail caravan can take your
+                            event to the next level! Our mobile bar does serve the most delicious cocktails and we do it
+                            in style. It’s not only about the drinks, it’s about the entire experience. </p>
+                    </div>
+                   
+                    <div class="image2"></div>
+                </div>
+            </div>
+            <!-- einde tweede rij -->
+
+            <!-- de tweede rij-->
+            <div class="row row3">
+                <div class="col-lg-2 d-none d-sm-block d-md-block">
+                    <div class="grey"></div>
+                </div>
+                <div class="col-lg-8 col-sm-8">
+                    <div class="textblock3">
+                        <h1> EXCITED TO STAY TUNED? INSCRIBE!</h1>
+                        <br>
+                        <p>Every month we try to keep our fans up to date. In the newsletter you’ll be informed about the brand
+                            new cocktails we offer, you’ll learn how to make some of the most delicious cocktails yourself.
+                            And we will let you know where and when you can find us.
+                            <br> interested? Don’t hesitate and inscribe below!</p>
+                            <form id="newsletter">
+                              <input  class="newsletterbox" type="text" name="firstname" value="Enter your e-mail">
+                             <button type="button" class="btn btn-primary btn-sm">Inscribe now.</button>
+                            </form>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-none d-sm-block d-md-block">
+                    <div class="grey"></div>
+                </div>
+            </div>
+            <!-- einde tweede rij -->
+
+
+            <!-- de derde rij-->
+            <div class="row row2">
+                <div class="col-md-6">
+                    <div class="textblock4">
+                        <h1> WOULD YOU LIKE TO CONTACT US? </h1>
+                          <a href="contact.html"><div class="button2"><button type="button" class="btn btn-primary btn-sm ">Yes please. </button></div></a>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="textblock5">
+                        <h1> WOULD YOU LIKE TO FOLLOW US? </h1>
+
+                    </div>
+                </div>
+            </div>
+            <!-- einde derde rij -->
+
+            <!-- de vierde rij-->
+            <div class="row row2">
+                <div class="col-md-12">
+                    <div class="footer1">
+                       <h1 id="footertext1" >MIX - mixing up some fun, drinks and happiness.</h1><br>
+                        <p id="footertext2"> Grafisch en digitale media, Arteveldehogeschool <br>by Ine Roose , link naar dossier </p>
+                    </div>
+                </div>
+            </div>
+            <!-- einde derde rij -->
+
+
+            <!-- wat binnen de box zit -->
+        </div>
+
+
+</body>
+
 </html>
