@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+
 /* algemeen */
 .container-fluid{
     width:1440px; 
@@ -241,7 +243,7 @@ p{
 
 .grey{
     min-height: 350px;
-    background-color: rgba(238, 238, 238, 0.171);
+    background-color:white; 
 }
 
 #newsletter{
@@ -310,6 +312,7 @@ display: inline-block;
 
 #footertext1{
     float:left; 
+    text-align: left; 
 }
 
 #footertext2{
@@ -393,9 +396,9 @@ display: inline-block;
 }
 
 .bodoni{
-font-family: "bodoni72"; 
+font-family: "rozha one"; 
 font-weight: bold; 
-font-size: 20px; 
+font-size: 22px; 
 margin-top: -20px; 
 }
 
@@ -409,10 +412,10 @@ margin-top: -20px;
     margin-bottom: -42px; 
 }
 .bodoni2{
-font-family: "bodoni72"; 
+font-family: "rozha one"; 
 display: inline-block; 
 font-weight: bold; 
-font-size: 20px; 
+font-size: 22px; 
 margin-top: -20px; 
 margin-left: 10px; 
 margin-right: 10px; 
@@ -507,10 +510,10 @@ h2{
 /*!  pagina 3 !*/
 
 .bodoni3{
-font-family: "bodoni72"; 
+font-family: "rozha one"; 
 display: inline-block; 
 font-weight: bold; 
-font-size: 19px; 
+font-size: 21px; 
 margin-left: 5px; 
 margin-right: 5px; 
 margin-bottom: -5px; 
@@ -568,10 +571,10 @@ margin-bottom: -5px;
 
 
 .bodoni4{
-font-family: "bodoni72"; 
+font-family: "rozha one"; 
 text-align: center; 
 font-weight: bold; 
-font-size: 18px; 
+font-size: 20px; 
 padding-top: 120px; 
 
 }
@@ -641,11 +644,11 @@ padding-top: 120px;
 }
 
 .bodoni5{
-font-family: "bodoni72"; 
+font-family: "rozha one"; 
 text-align: center; 
 font-weight: bold; 
 margin-left: 750px; 
-font-size: 18px; 
+font-size: 20px; 
 }
 
 .arrow2{
@@ -732,8 +735,25 @@ font-size: 18px;
    .formbox3{
        min-width: 220px; 
    }
-   
+
 }
 
+.socialicon{
+    max-height:40px; 
 
+}
 
+.socialiconbox{
+    margin-left: 150px; 
+    margin-top: 20px; 
+}
+
+.socialicon:hover{
+    max-height:50px; 
+}
+
+@media screen and (max-width: 768px) {
+    .socialiconbox{
+        margin-left:55px; 
+    }
+}
