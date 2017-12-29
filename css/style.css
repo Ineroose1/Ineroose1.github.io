@@ -4,8 +4,7 @@
     font-family: 'Telegrafico';
     src:url('fonts/Telegrafico.ttf.woff') format('woff'),
         url('fonts/Telegrafico.ttf.svg') format('svg'),
-        url('fonts/Telegrafico.ttf.eot'),
-        url('fonts/Miso.ttf.eot?#iefix') format('embedded-opentype'); 
+        url('fonts/Telegrafico.ttf.eot');
     font-weight: normal;
     font-style: normal;}
 
