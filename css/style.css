@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Rozha+One');
 
+@font-face {
+    font-family: 'Miso';
+    src:url('fonts/Telegrafico.ttf.woff') format('woff'),
+        url('fonts/Telegrafico.ttf.svg') format('svg'),
+        url('fonts/Telegrafico.ttf.eot'),
+        url('fonts/Miso.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;}
+
 /* algemeen */
 .container-fluid{
     width:1440px; 
@@ -756,4 +765,24 @@ font-size: 20px;
     .socialiconbox{
         margin-left:55px; 
     }
+}
+
+.video{
+    height: 315px; 
+    width: 532px; 
+    margin-top: 40px;
+    margin-left: 290px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+.video{
+    height: 315px; 
+    width: 300px; 
+    margin-top: 40px;
+    margin-left: 0px; 
+    
+}
+
 }
