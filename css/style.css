@@ -396,7 +396,7 @@ display: inline-block;
 }
 
 .bodoni{
-font-family: "rozha one"; 
+font-family: 'Rozha One', serif;; 
 font-weight: bold; 
 font-size: 22px; 
 margin-top: -20px; 
@@ -510,7 +510,7 @@ h2{
 /*!  pagina 3 !*/
 
 .bodoni3{
-font-family: "rozha one"; 
+font-family: 'Rozha One', serif;
 display: inline-block; 
 font-weight: bold; 
 font-size: 21px; 
@@ -571,7 +571,7 @@ margin-bottom: -5px;
 
 
 .bodoni4{
-font-family: "rozha one"; 
+font-family: 'Rozha One', serif;
 text-align: center; 
 font-weight: bold; 
 font-size: 20px; 
@@ -644,7 +644,7 @@ padding-top: 120px;
 }
 
 .bodoni5{
-font-family: "rozha one"; 
+font-family: 'Rozha One', serif;
 text-align: center; 
 font-weight: bold; 
 margin-left: 750px; 
